@@ -1,0 +1,13 @@
+<div class="containerTitleCart">
+    <h2>Your Cart</h2>
+</div>
+<section>
+    <div class="containerCart" *ngFor=" let product of products">
+        <h3>name:{{product.name}}</h3>
+        <h3>price:{{product.price}}</h3>
+        <h3>quantity:{{product.quantity}}</h3>
+        <div>
+            <img [src]="product.img">
+        </div>
+    </div>
+</section>

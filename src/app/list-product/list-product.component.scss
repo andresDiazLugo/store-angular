@@ -1,0 +1,32 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    .containerProduct{
+        max-width: 20rem;
+        text-align: center;
+        -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+        .containerImg{
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit:contain;
+            }
+            
+        }
+        button{
+            padding: 4px;
+            font-size:0.8;
+            font-weight:700;
+            margin: 1rem 0;
+            background-color: yellowgreen;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
